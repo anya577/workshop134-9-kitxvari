@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>anketa</title>
+</head>
+<body>
+    <header></header>
+    <main>       
+        <div class="box">
+        <h2>შეუკვეთე პროდუქტი დღესვე</h2>
+    </div>
+        <form class="saregistracio" method="post">  
+            <input type="text" name="saxeli" id="saxeli" placeholder="სახელი">
+            <input type="text" name="gvari" id="gvari" placeholder="გვარი">
+            <input type="tel" name="phone" id="phone" pattern="{0-9}{3}-{0-9}{3}-{0-9}{3}" placeholder="ტელეფონის ნომერი">
+            <p class="misamarti">შეიყვანეთ თქვენი მისამართი</p>
+            <textarea name="adress" id="adress" cols="98" rows="10"></textarea>
+
+                       
+
+           <p class="metodi">აირჩიე გადახდის მეთოდი </p>
+
+           
+           <div class="t2">
+           <input type="radio" name="choose" id="choose">
+           <label for="card">ბარათით გადახდა</label>
+           
+           <input type="radio" name="choose" id="choose">
+           <label for="cash" >ქეშით გადახდა</label>
+           
+        </div>
+
+           <input type="submit" name="confirm" id="confirm" value="შეკვეთის გაფორმება">
+           
+
+           
+           
+
+
+
+        </form>
+
+    </main>
+    <footer></footer>
+    
+</body>
+</html>

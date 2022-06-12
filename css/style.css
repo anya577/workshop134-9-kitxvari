@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.box{
+    width: 750px;
+    height: 100px;
+    background-color: #000;
+    margin-left: 1100px;
+    margin-top: 58px;
+    border-radius: 20px;
+}
+.box2{
+    width: 750px;
+    height: 394px;
+    background-color: #000;
+    margin-left: 1100px;
+    margin-top: 58px;
+    border-radius: 20px;
+
+}
+h2{
+    font-size: 36px;
+    color: #fff;
+    padding-left: 130px;
+    padding-top: 24px;
+}
+h2.meore{
+    font-size: 36px;
+    color: #fff;
+    padding: 30px;
+    text-align: center;      
+    
+} 
+h5{
+    color: #fff;
+    margin-top: 10px;
+    text-align: center;
+   
+}
+
+.metodi{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 40px;
+    margin-left: 0;
+}
+.misamarti{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 0;
+}
+#adress{
+resize: none;
+border-radius: 20px;
+border: none;
+outline: none;
+background-color: rgba(255, 255, 255, 0.5);
+}
+.saregistracio{
+    width: 750px;
+    margin: 50px 1100px;
+}
+.saregistracio input{
+    width: 100%;
+    height: 72px;
+    padding: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    border: none;
+    border-bottom: 3px solid #fff;
+    border-radius: 20px;
+
+}
+
+.saregistracio #confirm{
+    background-color: #01AF8C;
+    color: #000;
+    cursor: pointer;
+    margin-top: 30px;
+}
+ #choose{    
+    width: 4%;
+    height: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+  
+}
+.t2{
+ 
+  justify-content: space-between;
+}
+.saregistracio #daatvaliere{
+    background-color: #F5BA22;
+    color: #000;
+    cursor: pointer;
+    margin-top: 250px;
+}
